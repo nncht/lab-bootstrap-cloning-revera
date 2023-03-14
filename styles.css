@@ -32,6 +32,14 @@ a {
   margin-left: auto;
 }
 
+element.style {
+  width: 100%;
+  float: left;
+  margin-right: -100%;
+  position: relative;
+  display: none;
+}
+
 @media (min-width: 768px) .row {
   margin-right: -15px;
   margin-left: -15px;
@@ -85,6 +93,79 @@ h1.site-title a:visited {
   position: relative;
 }
 
+#slidebox {
+  max-height: 550px;
+  position: relative;
+  background: #000;
+}
+
+.flexslider {
+  margin: 0 0 0px;
+  zoom: 1;
+}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.flexslider .slides {
+  zoom: 1;
+}
+
+.flexslider .slides li {
+  max-height: 550px !important;
+  overflow: hidden;
+}
+
+.flexslider .slides > li {
+  display: none;
+  -webkit-backface-visibility: hidden;
+}
+
+.flex-caption {
+  width: 800px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-left: -400px;
+  text-align: center;
+  z-index: 120;
+  color: #fff;
+}
+
+.flex-caption h2 {
+  text-transform: uppercase;
+  font-size: 36px;
+  color: #fff;
+}
+
+a.frmore {
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  width: 150px;
+  border: 1px solid #fff;
+  padding: 5px 0px;
+  margin: 10px auto;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.doverlay {
+  background: url(/web/20171026195135im_/http://demo.fabthemes.com/revera/wp-content/themes/Revera/images/overlay.png);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+
 /* -------------------------
 Red section / Widgets
 ------------------------- */
@@ -94,6 +175,29 @@ Red section / Widgets
   background: #ed564b;
   border-top: 5px solid #f96b61;
   border-bottom: 5px solid #f96b61;
+}
+
+.homewidget {
+  color: #fff;
+  text-align: center;
+}
+
+.homewidget h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.homewidget span {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
 }
 
 /* -------------------------
