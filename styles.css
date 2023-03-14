@@ -40,11 +40,6 @@ element.style {
   display: none;
 }
 
-@media (min-width: 768px) .row {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
 /* -------------------------
 Header
 ------------------------- */
@@ -119,11 +114,6 @@ h1.site-title a:visited {
 .flexslider .slides li {
   max-height: 550px !important;
   overflow: hidden;
-}
-
-.flexslider .slides > li {
-  display: none;
-  -webkit-backface-visibility: hidden;
 }
 
 .flex-caption {
@@ -226,4 +216,12 @@ h3.bothead {
   padding: 10px 0px;
   color: #fff;
   text-transform: uppercase;
+}
+
+#bottom ul {
+  width: auto;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0 0px;
 }
