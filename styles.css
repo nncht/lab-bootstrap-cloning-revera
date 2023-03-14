@@ -23,7 +23,7 @@ h1 {
 }
 
 a {
-  color: #428bca;
+  color: #ed564b;
   text-decoration: none;
 }
 
@@ -188,6 +188,45 @@ Red section / Widgets
   text-align: center;
   margin: 0px auto;
   font-size: 20px;
+}
+
+/* -------------------------
+Main Content
+------------------------- */
+
+.section-wide {
+  margin-top: 40px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.section-title h2 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.section-title p {
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-bottom: 20px;
+}
+
+.portbox,
+.postbox,
+.hthumb {
+  position: relative;
+}
+
+.portbox h3 {
+  text-align: center;
+  color: #000;
+  font-size: 14px;
 }
 
 /* -------------------------
