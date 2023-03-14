@@ -215,3 +215,15 @@ Footer
   background: #292929;
   font-size: 12px;
 }
+
+.botwid {
+  color: #aaa;
+}
+
+h3.bothead {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  color: #fff;
+  text-transform: uppercase;
+}
